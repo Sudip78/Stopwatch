@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper, .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 5%;
+}
+.card{
+    width: 400px;
+    height: 300px;
+    background-color: lightcoral;
+    color: #ffff;
+}
+.timer{
+    font-size: 50px;
+}
+button{
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
